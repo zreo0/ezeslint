@@ -1,0 +1,25 @@
+{
+  "name": "ezeslint",
+  "version": "1.0.0",
+  "description": "eslintrc",
+  "bin": {
+    "ezeslint": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintrc"
+  ],
+  "author": "at74",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0",
+    "ora": "^4.1.1"
+  }
+}
