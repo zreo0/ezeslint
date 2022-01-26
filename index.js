@@ -16,6 +16,8 @@ const mainPromptQuestions = [
         choices: [
             { name: 'React', value: 'react' },
             { name: 'Vue', value: 'vue' },
+            { name: 'NodeJS', value: 'nodejs' },
+            { name: '不选择', value: 'other' },
         ],
     },
     {

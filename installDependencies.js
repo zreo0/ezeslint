@@ -23,6 +23,8 @@ const installDependencies = (promptAnswers) => {
                 needModules.push('eslint-plugin-react');
             } else if (promptAnswers.framework === 'vue') {
                 needModules.push('eslint-plugin-vue');
+            } else if (promptAnswers.framework === 'nodejs') {
+            } else if (promptAnswers.framework === 'other') {
             }
             // typescript
             if (promptAnswers.useTypescript) {
